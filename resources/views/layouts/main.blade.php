@@ -11,6 +11,8 @@
 
     <!-- LOAD CSS FILES -->
     <link href="{{ asset('main/css/main.css') }}" rel="stylesheet" type="text/css">
+    <script src="//code.jivosite.com/widget/nAk1DmrPDs" async></script>
+
 </head>
 
 <body>

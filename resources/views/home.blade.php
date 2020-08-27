@@ -167,8 +167,15 @@ Home
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="cta-form wow fadeIn" data-wow-delay="0s" data-wow-duration="1s">
-                        <input type="text" name="track" value="" placeholder="Insert tracking number here...">
-                        <input type="submit" name="submit" value="TRACK SHIPMENT">
+
+                        @include('includes.alerts')
+
+                        <form method="post" action="{{ url('track-shipment') }}">
+                            @csrf
+                            <input type="text" name="tracking_id"
+                                   placeholder="Insert tracking number here..." required>
+                            <input type="submit" name="submit" value="TRACK IT">
+                        </form>
                         <div class="clearfix"></div>
                     </div>
 
@@ -189,8 +196,6 @@ Home
                     <a href="{{ url('services') }}" class="btn-border-light wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".3s">Read More</a>
                 </div>
             </div>
-
-
 
             <div id="bg-service-3" class="box-one-third light-text">
                 <div class="inner">

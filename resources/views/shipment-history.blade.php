@@ -32,14 +32,13 @@
     </section>
 
     <!-- Content Mid part -->
-    <div class="page-content">
+    <div id="content">
 
-        <div class="section-full" style="margin-top: 5px;">
+        <div style="margin-top: 5px;">
             <div class="container">
-
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12" style="padding-bottom: 50px;">
-                        <div class="row shipment-header">
+                        <div class="row shipment-header" style="background-color: #032947;">
                             <div class="col-md-12"><h3 class="text-white text-center">Shipment Details</h3></div>
                             <div class="col-md-4">
                                 <p class="text-white"><strong class="text-primary">Shipment ID:</strong> {{ $shipment->tracking_id }}</p>
@@ -51,14 +50,14 @@
                             </div>
 
                             <div class="col-md-4">
-                                <p class="text-white"><strong>Sender Information</strong></p>
+                                <p style="color: #ffffff;"><strong class="text-white">Sender Information</strong></p>
                                 <p class="text-white"><strong class="text-primary">Name:</strong> {{ $shipment->userDetail->sender_name }}</p>
                                 <p style="color: #ffffff;"><strong class="text-primary">Mobile:</strong> <span>{{ $shipment->userDetail->sender_mobile }}</span></p>
                                 <p class="text-white"><strong class="text-primary">Address:</strong> {{ $shipment->userDetail->sender_address }}</p>
                             </div>
 
                             <div class="col-md-4">
-                                <p class="text-white"><strong>Receiver Information</strong></p>
+                                <p style="color: #ffffff;"><strong class="text-white">Receiver Information</strong></p>
                                 <p class="text-white"><strong class="text-primary">Name:</strong> {{ $shipment->userDetail->receiver_name }}</p>
                                 <p style="color: #ffffff;"><strong class="text-primary">Mobile:</strong> {{ $shipment->userDetail->receiver_mobile }}</p>
                                 <p class="text-white"><strong class="text-primary">Address:</strong> {{ $shipment->userDetail->receiver_address }}</p>
@@ -67,7 +66,7 @@
 
                         <table class="table table-striped">
                             <thead>
-                            <tr>
+                            <tr style="color: #0f3e68;">
                                 <th scope="col">#</th>
                                 <th scope="col">Country</th>
                                 <th scope="col">Location</th>
@@ -80,7 +79,7 @@
 
                             @if($checkpoints)
                                 @foreach($checkpoints as $checkpoint)
-                                    <tr>
+                                    <tr style="color: #280302;">
                                         <th scope="row">{{$count = $checkpoints->count() - $loop->iteration + 1 }}</th>
                                         <td>{{ $checkpoint->country }}</td>
                                         <td>{{ $checkpoint->location }}</td>
@@ -97,49 +96,6 @@
                     </div>
                 </div>
 
-                <div class="section-full p-t80">
-                    <div class="container">
-                        <div class="section-head">
-                            <h4>Contact Detail</h4>
-                            <div class="mt-separator-outer m-b30">
-                                <div class="mt-separator bg-primary"></div>
-                            </div>
-                        </div>
-                        <div class="section-content m-b30">
-                            <div class="row">
-
-                                <div class="col-md-4 col-sm-12 m-b30">
-                                    <div class="mt-icon-box-wraper center p-a30 bg-gray">
-                                        <div class="icon-sm m-b10"><i class="iconmoon-smartphone-1"></i></div>
-                                        <div class="icon-content">
-                                            <h4 class="text-primary">Phone number</h4>
-                                            <p>+1 (281) 968-1465 </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-12 m-b30">
-                                    <div class="mt-icon-box-wraper center p-a30 bg-gray">
-                                        <div class="icon-sm m-b10"><i class="iconmoon-email"></i></div>
-                                        <div class="icon-content">
-                                            <h4 class="text-primary">Email address</h4>
-                                            <p>info@alphadiplomaticcourier.com</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-12 m-b30">
-                                    <div class="mt-icon-box-wraper center p-a30 bg-gray">
-                                        <div class="icon-sm m-b10"><i class="iconmoon-travel"></i></div>
-                                        <div class="icon-content">
-                                            <h4 class="text-primary">Address info</h4>
-                                            <p>450 W 21d Steet New York, NY</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
