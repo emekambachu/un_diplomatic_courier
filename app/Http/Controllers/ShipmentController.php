@@ -94,9 +94,9 @@ class ShipmentController extends Controller
 
         //send email to user
         Mail::send('emails.new-shipment', $data, static function($message) use ($data){
-            $message->from('info@alphadiplomaticcourier.com', 'Alpha Diplomatic Courier');
+            $message->from('info@uncourierdeliveryservices.org', 'United Nations Diplomatic Courier');
             $message->to($data['receiver_email'], $data['receiver_name']);
-            $message->replyTo('info@alphadiplomaticcourier.com', 'Alpha Diplomatic Courier');
+            $message->replyTo('info@uncourierdeliveryservices.org', 'United Nations Diplomatic Courier');
             $message->subject('Your shipment has been initiated');
         });
 
@@ -211,9 +211,9 @@ class ShipmentController extends Controller
         ];
 
         Mail::send('emails.verify-shipment', $data, static function ($message) use ($data) {
-            $message->from('info@alphadiplomaticcourier.com', 'Alpha Diplomatic Courier');
+            $message->from('info@uncourierdeliveryservices.org', 'United Nations Diplomatic Courier');
             $message->to($data['email'], $data['name']);
-            $message->replyTo('Info@alphadiplomaticcourier.com', 'Alpha Diplomatic Courier');
+            $message->replyTo('Info@alphadiplomaticcourier.com', 'United Nations Diplomatic Courier');
             $message->subject($data['email_subject']);
         });
 

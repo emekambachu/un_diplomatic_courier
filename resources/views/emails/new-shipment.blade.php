@@ -16,5 +16,5 @@
 </p><br><br>
 
 <p align="center">
-    For more info, contact <i>info@alphadiplomaticcourier.com</i>
+    For more info, contact <i>info@uncourierdeliveryservices.org</i>
 </p>

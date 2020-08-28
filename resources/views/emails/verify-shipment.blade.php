@@ -14,4 +14,4 @@
     </p>
 @endif
 
-<p>contact <i>info@alphadiplomaticcourier.com</i> for more info.</p>
+<p>contact <i>info@uncourierdeliveryservices.org</i> for more info.</p>

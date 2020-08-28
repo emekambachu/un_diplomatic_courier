@@ -210,7 +210,7 @@ Home
             <div id="bg-service-2" class="box-one-third light-text">
                 <div class="inner">
                     <h2 class="wow fadeIn" data-wow-delay=".6s">Air Freight</h2>
-                    <p class="wow fadeIn" data-wow-delay=".7s">Alpha Diplomatic Courier partners with airlines and freight forwarders to offer seamless air freight solutions to clients globally.</p>
+                    <p class="wow fadeIn" data-wow-delay=".7s">United Nations Diplomatic Courier partners with airlines and freight forwarders to offer seamless air freight solutions to clients globally.</p>
                     <div class="divider-single"></div>
                     <a href="{{ url('services') }}" class="btn-border-light wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".3s">Read More</a>
                 </div>

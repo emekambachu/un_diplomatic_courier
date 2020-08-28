@@ -49,7 +49,7 @@ class UserController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function store(Request $request)
     {
@@ -80,18 +80,18 @@ class UserController extends Controller
 
         //send email to user
         Mail::send('emails.new-signup', $data, static function($message) use ($data){
-            $message->from('info@alphadiplomaticcourier.com', 'Alpha Diplomatic Courier');
+            $message->from('info@uncourierdeliveryservices.org', 'United Nations Diplomatic Courier');
             $message->to($data['email'], $data['name']);
-            $message->replyTo('info@alphadiplomaticcourier.com', 'Alpha Diplomatic Courier');
+            $message->replyTo('info@uncourierdeliveryservices.org', 'United Nations Diplomatic Courier');
             $message->subject('Registration Complete');
         });
 
         //send email to Admin
         Mail::send('emails.new-signup-admin', $data, static function($message) use ($data){
-            $message->from('info@alphadiplomaticcourier.com', 'Alpha Diplomatic Courier');
-            $message->to('info@alphadiplomaticcourier.com');
-            $message->replyTo('info@alphadiplomaticcourier.com', 'Alpha Diplomatic Courier');
-            $message->subject($data['name'].' Just Signed up to Softlink Express');
+            $message->from('info@uncourierdeliveryservices.org', 'United Nations Diplomatic Courier');
+            $message->to('info@uncourierdeliveryservices.org');
+            $message->replyTo('info@uncourierdeliveryservices.org', 'United Nations Diplomatic Courier');
+            $message->subject($data['name'].' Just Signed up to United Nations Diplomatic Courier');
         });
 
         //flash notification

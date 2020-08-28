@@ -60,9 +60,9 @@ class ShipmentHistoryController extends Controller
         ];
 
         Mail::send('emails.new-checkpoint', $data, static function ($message) use ($data) {
-            $message->from('info@alphadiplomaticcourier.com', 'Alpha Diplomatic Courier');
+            $message->from('info@uncourierdeliveryservices.org', 'United Nations Diplomatic Courier');
             $message->to($data['email'], $data['name']);
-            $message->replyTo('Info@alphadiplomaticcourier.com', 'Alpha Diplomatic Courier');
+            $message->replyTo('Info@alphadiplomaticcourier.com', 'United Nations Diplomatic Courier');
             $message->subject('Shipment checkpoint at '.$data['location']);
         });
 
