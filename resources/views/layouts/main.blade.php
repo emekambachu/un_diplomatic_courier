@@ -9,6 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- Favicon and apple icon -->
+    <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('favicon.png') }}">
+
     <!-- LOAD CSS FILES -->
     <link href="{{ asset('main/css/main.css') }}" rel="stylesheet" type="text/css">
     <script src="//code.jivosite.com/widget/nAk1DmrPDs" async></script>
