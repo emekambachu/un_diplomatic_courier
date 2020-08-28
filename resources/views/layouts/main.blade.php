@@ -105,7 +105,6 @@
                     <h3>Location</h3>
                     <div class="tiny-border"></div>
                     Head/Corporate Office:305 East 47th Street,3 Dag Plaza,4th Floor United States of America.<br>
-                    Branch office: 3962 Anahiem DR 3962 Anahiem Street,Bsarlbbx Kabul Afghanistan.<br>
                     T. +1(650)487-0645<br>
                     E. info@uncourierdeliveryservices.org
                 </div>
