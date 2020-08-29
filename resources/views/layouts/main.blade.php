@@ -96,6 +96,7 @@
                         <li><a href="{{ url('services') }}">Air Freight</a></li>
                         <li><a href="{{ url('services') }}">Repackaging</a></li>
                         <li><a href="{{ url('services') }}">Logistics</a></li>
+                        <li><a href="{{ url('services') }}">Warehousing</a></li>
                         <li><a href="{{ url('services') }}">Consolidation</a></li>
                         <li><a href="{{ url('services') }}">Containerization</a></li>
                     </ul>
