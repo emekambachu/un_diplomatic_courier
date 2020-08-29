@@ -215,6 +215,34 @@ Home
                     <a href="{{ url('services') }}" class="btn-border-light wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".3s">Read More</a>
                 </div>
             </div>
+
+            <div id="bg-service-1" class="box-one-third light-text">
+                <div class="inner wow" data-wow-delay="0s">
+                    <h2 class="wow fadeIn" data-wow-delay=".2s">Containerization</h2>
+                    <p class="wow fadeIn" data-wow-delay=".3s">United Nations Diplomatic Courier Delivery Services are experts in the area of Containerization. We make sure a system of intermodal freight transport using intermodal containers.</p>
+                    <div class="divider-single"></div>
+                    <a href="{{ url('services') }}" class="btn-border-light wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".3s">Read More</a>
+                </div>
+            </div>
+
+            <div id="bg-service-3" class="box-one-third light-text">
+                <div class="inner">
+                    <h2 class="wow fadeIn" data-wow-delay=".4s">Re-packaging</h2>
+                    <p class="wow fadeIn" data-wow-delay=".5s">United Nations Diplomatic Courier Delivery Services has a different and unique way of repackaging parcels to meet international standard.</p>
+                    <div class="divider-single"></div>
+                    <a href="{{ url('services') }}" class="btn-border-light wow fadeInUp" data-wow-delay=".5s"
+                       data-wow-duration=".3s">Read More</a>
+                </div>
+            </div>
+
+            <div id="bg-service-2" class="box-one-third light-text">
+                <div class="inner">
+                    <h2 class="wow fadeIn" data-wow-delay=".6s">Consolidation</h2>
+                    <p class="wow fadeIn" data-wow-delay=".7s">We Our delivery services in a more coherent way thereby putting smiles on the faces of our client and building a stronger customer relationship with them.</p>
+                    <div class="divider-single"></div>
+                    <a href="{{ url('services') }}" class="btn-border-light wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".3s">Read More</a>
+                </div>
+            </div>
         </div>
 
         <div class="clearfix"></div>
