@@ -238,7 +238,7 @@ Home
             <div id="bg-service-2" class="box-one-third light-text">
                 <div class="inner">
                     <h2 class="wow fadeIn" data-wow-delay=".6s">Consolidation</h2>
-                    <p class="wow fadeIn" data-wow-delay=".7s">We Our delivery services in a more coherent way thereby putting smiles on the faces of our client and building a stronger customer relationship with them.</p>
+                    <p class="wow fadeIn" data-wow-delay=".7s">We do our delivery services in a more coherent way thereby putting smiles on the faces of our client and building a stronger customer relationship with them.</p>
                     <div class="divider-single"></div>
                     <a href="{{ url('services') }}" class="btn-border-light wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".3s">Read More</a>
                 </div>

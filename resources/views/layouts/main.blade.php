@@ -93,11 +93,11 @@
                     <div class="tiny-border"></div>
                     <ul>
                         <li><a href="{{ url('services') }}">Ocean Freight</a></li>
-                        <li><a href="{{ url('services') }}">Sky Freight</a></li>
-                        <li><a href="{{ url('services') }}">Cargo Express</a></li>
+                        <li><a href="{{ url('services') }}">Air Freight</a></li>
+                        <li><a href="{{ url('services') }}">Repackaging</a></li>
                         <li><a href="{{ url('services') }}">Logistics</a></li>
-                        <li><a href="{{ url('services') }}">Warehousing</a></li>
-                        <li><a href="{{ url('services') }}">Custom Brokerage</a></li>
+                        <li><a href="{{ url('services') }}">Consolidation</a></li>
+                        <li><a href="{{ url('services') }}">Containerization</a></li>
                     </ul>
                 </div>
 

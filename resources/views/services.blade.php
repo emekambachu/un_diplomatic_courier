@@ -87,7 +87,7 @@
                                 <i class="fa fa-ship icon-big"></i>
                                 <div class="text">
                                     <h2>Containerization</h2>
-                                    <p>United Nations Diplomatic Courier Delivery Services are experts in the area of Containerization. We make sure a system of intermodal freight transport using intermodal containers are carried out efficiently and effectively. The containers have standardized dimensions.</p>
+                                    <p>United Nations Diplomatic Courier Delivery Services are experts in the area of Containerization. We make sure a system of inter-modal freight transport using inter-modal containers are carried out efficiently and effectively. The containers have standardized dimensions.</p>
                                 </div>
                             </div>
                         </div>
