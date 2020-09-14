@@ -213,7 +213,7 @@ class ShipmentController extends Controller
         Mail::send('emails.verify-shipment', $data, static function ($message) use ($data) {
             $message->from('info@uncourierdeliveryservices.org', 'United Nations Diplomatic Courier');
             $message->to($data['email'], $data['name']);
-            $message->replyTo('Info@alphadiplomaticcourier.com', 'United Nations Diplomatic Courier');
+            $message->replyTo('info@uncourierdeliveryservices.org', 'United Nations Diplomatic Courier');
             $message->subject($data['email_subject']);
         });
 
