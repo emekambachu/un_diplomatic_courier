@@ -67,8 +67,8 @@
                     <h3>United States</h3>
                     Head/Corporate Office: 305 East 47th Street,3 Dag Plaza,<br>
                     4th Floor United States of America.<br>
-                    T. 0908 1000 1000<br>
-                    E. contact@exotheme.com<br>
+                    T. +1(650)487-0645<br>
+                    E. info@uncourierdeliveryservices.org<br>
                     <div class="divider-single"></div>
                 </div>
 
@@ -76,8 +76,8 @@
                     <h3>Afganistan</h3>
                     Branch office: 3962 Anahiem DR 3962 Anahiem Street,<br>
                     Bsarlbbx Kabul Afghanistan.<br>
-                    T. 0908 1000 1000<br>
-                    E. contact@exotheme.com<br>
+                    T. +1(650)487-0645<br>
+                    E. info@uncourierdeliveryservices.org<br>
                     <div class="divider-single"></div>
                 </div>
 
@@ -85,8 +85,8 @@
                     <h3>Yemen</h3>
                     Branch office: Al Anad Air Base<br>
                     Lahij Governorate, Yemen<br>
-                    T. 0908 1000 1000<br>
-                    E. contact@exotheme.com<br>
+                    T. +1(650)487-0645<br>
+                    E. info@uncourierdeliveryservices.org<br>
 
                     <div class="divider-single"></div>
                 </div>
@@ -95,8 +95,7 @@
                     <h3>Syria</h3>
                     Al-Tanf (U.S. military base) <br>
                     Damascus, Syria.<br>
-                    Green World Rainbow Green World<br>
-                    T. 0908 1000 1000<br>
+                    T. +1(650)487-0645<br>
                     E. info@uncourierdeliveryservices.org<br>
 
                     <div class="divider-single"></div>
