@@ -13,7 +13,7 @@ Home
                 <ul>
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="{{ asset('main/img-rev-slider/bg-1.jpg') }}" alt="">
+                        <img src="{{ asset('main/img-rev-slider/bg-6.jpg') }}" alt="">
 
                         <div class="tp-caption h-line lft"
                              data-x="20"
@@ -73,7 +73,7 @@ Home
 
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="{{ asset('main/img-rev-slider/bg-2.jpg') }}" alt="">
+                        <img src="{{ asset('main/img-rev-slider/bg-7.jpg') }}" alt="">
 
                         <div class="tp-caption h-line lft"
                              data-x="center"
@@ -114,7 +114,7 @@ Home
 
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="{{ asset('main/img-rev-slider/bg-5.jpg') }}" alt="">
+                        <img src="{{ asset('main/img-rev-slider/bg-8.jpg') }}" alt="">
 
                         <div class="tp-caption h-line lft"
                              data-x="center"
@@ -316,7 +316,7 @@ Home
                             <!-- gallery item -->
                             <div class="item">
                                 <div class="picframe">
-                                    <a href="{{ asset('main/img/gallery/pic-1.jpg') }}" data-source="img/gallery/pic-1.jpg" title="Service with a Smile">
+                                    <a href="{{ asset('main/img/gallery/pic-10.jpg') }}" data-source="{{ asset('main/img/gallery/pic-10.jpg') }}" title="Service with a Smile">
                                         <span class="overlay"></span>
 
                                         <span class="pf_text">
@@ -324,7 +324,7 @@ Home
                                                 <span class="small-border"></span>
                                             </span>
 
-                                        <img src="{{ asset('main/img/gallery/pic-1.jpg') }}" alt="" />
+                                        <img src="{{ asset('main/img/gallery/pic-10.jpg') }}" alt="" />
                                     </a>
 
                                 </div>
@@ -334,8 +334,8 @@ Home
                             <!-- gallery item -->
                             <div class="item">
                                 <div class="picframe">
-                                    <a href="{{ asset('main/img/gallery/pic-2.jpg') }}"
-                                       data-source="{{ asset('main/img/gallery/pic-2.jpg') }}" title="Land Delivery by Truck">
+                                    <a href="{{ asset('main/img/gallery/pic-11.jpg') }}"
+                                       data-source="{{ asset('main/img/gallery/pic-11.jpg') }}" title="Land Delivery by Truck">
                                         <span class="overlay"></span>
 
                                         <span class="pf_text">
@@ -343,7 +343,7 @@ Home
                                                 <span class="small-border"></span>
                                             </span>
 
-                                        <img src="{{ asset('main/img/gallery/pic-2.jpg') }}" alt="" />
+                                        <img src="{{ asset('main/img/gallery/pic-11.jpg') }}" alt="" />
                                     </a>
 
                                 </div>
@@ -353,7 +353,7 @@ Home
                             <!-- gallery item -->
                             <div class="item">
                                 <div class="picframe">
-                                    <a href="{{ asset('main/img/gallery/pic-3.jpg') }}" data-source="img/gallery/pic-3.jpg" title="Land Delivery by Train">
+                                    <a href="{{ asset('main/img/gallery/pic-12.jpg') }}" data-source="img/gallery/pic-3.jpg" title="Land Delivery by Train">
                                         <span class="overlay"></span>
 
                                         <span class="pf_text">
@@ -361,7 +361,7 @@ Home
                                                 <span class="small-border"></span>
                                             </span>
 
-                                        <img src="{{ asset('main/img/gallery/pic-3.jpg') }}" alt="" />
+                                        <img src="{{ asset('main/img/gallery/pic-12.jpg') }}" alt="" />
                                     </a>
 
                                 </div>
@@ -378,7 +378,7 @@ Home
         <!-- section begin -->
         <section id="explore-1" class="side-bg light-text">
             <div class="col-md-6 col-md-offset-6 pull-right image-container">
-                <div class="background-image"></div>
+                <img src="{{ asset('main/img/gallery/pic-12.jpg') }}" alt="" />
             </div>
 
             <div class="container">
