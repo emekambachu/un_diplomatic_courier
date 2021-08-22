@@ -69,3 +69,39 @@ Auth::routes([
 
 // Perform logout
 Route::get('logout', 'Auth\LoginController@logout')->name('logout');
+
+// Cache clearing Routes
+//Clear route cache:
+Route::get('/route-cache', static function () {
+    $exitCode = Artisan::call('route:cache');
+    return 'Routes cache cleared';
+});
+
+//Clear route cache:
+Route::get('/route-clear', static function () {
+    $exitCode = Artisan::call('route:clear');
+    return 'Routes cache cleared';
+});
+
+//Clear config cache:
+Route::get('/config-cache', static function () {
+    $exitCode = Artisan::call('config:cache');
+    return 'Config cache cleared';
+});
+//Clear config cache:
+Route::get('/config-clear', static function () {
+    $exitCode = Artisan::call('config:clear');
+    return 'Config cache cleared';
+});
+
+// Clear application cache:
+Route::get('/clear-cache', static function () {
+    $exitCode = Artisan::call('cache:clear');
+    return 'Application cache cleared';
+});
+
+// Clear view cache:
+Route::get('/view-clear', static function () {
+    $exitCode = Artisan::call('view:clear');
+    return 'View cache cleared';
+});
